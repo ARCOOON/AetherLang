@@ -154,8 +154,19 @@ class some_class implements some_other_class {}
 
 ```js
 class some_class {
-    define protected init() {
-        self.value = 0
+    @protected
+    define void init() {
+        String user = null
+    }
+
+    @private
+    define String get_password() {
+        return this.user.password
+    }
+
+    @property
+    define String email() {
+        return this.user.email
     }
 }
 ```
