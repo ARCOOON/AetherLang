@@ -1,4 +1,4 @@
-# Custom Syntax for *AetherLang*
+# Syntax for *AetherLang*
 
 ## Comments
 
