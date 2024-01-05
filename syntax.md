@@ -26,10 +26,16 @@ Number x = 1974893
 Int y = 1
 ```
 
-### Any (Objects)
+### Booleans
 
 ```js
-Any x = some_function.get() // auto type assign  for x
+Bool my_boolean = true | false
+```
+
+### Auto
+
+```js
+auto x = some_function.get() // automatic type assignation  for x
 ```
 
 ### Dictionary (HashMap)
@@ -44,6 +50,8 @@ Dict data = {} // auto type assign for data
 ### Lists
 
 ```js
+List<type> <variable> = []
+
 List my_list = [] // auto type assign for my_list
 List<String> = []
 ```
@@ -142,4 +150,12 @@ class some_class {}
 class some_class extends some_other_class {}
 
 class some_class implements some_other_class {}
+```
+
+```
+class some_class {
+    define protected init() {
+        self.value = 0
+    }
+}
 ```
