@@ -15,28 +15,35 @@ This is a multi-line comment
 
 ### Strings
 
-```java
+```js
 String hello = "hello"
-String world = "world"
 ```
 
 ### Numbers
 
-```java
-Number a = 0
-Int a = 0
+```js
+Number x = 1974893
+Int y = 1
 ```
 
-### Dictionary or HashMap
+### Any (Objects)
 
-```java
+```js
+Any x = some_function.get() // auto assign type for x
+```
+
+### Dictionary (HashMap)
+
+```js
 data -> Dict<int, String> = {}
+Dict data = {} // auto type assign for data
 ```
 
 ### Constants (Not changeable)
 
 ```java
 const String hello = "hello"
+const hello -> String = "hello"
 ```
 
 ## If statements
@@ -97,7 +104,7 @@ while ( <<condition>> ) {
 
 ```js
 define <return_type> foo( <<arguments>> ) {
-    <statement>
+    <code>
 }
 ```
 
@@ -105,15 +112,15 @@ define <return_type> foo( <<arguments>> ) {
 
 ```js
 define void greet( String name ) {
-    <statement>
+    <code>
 }
 ```
 
 > with return
 
 ```js
-define <type> get_value() {
-    return <value>
+define String get_something() {
+    return "something"
 }
 ```
 
