@@ -119,7 +119,7 @@ define <type> get_value() {
 
 ### Class
 
-```js
+```java
 class some_class {}
 
 class some_class extends some_other_class {}
