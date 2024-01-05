@@ -152,7 +152,7 @@ class some_class extends some_other_class {}
 class some_class implements some_other_class {}
 ```
 
-```
+```js
 class some_class {
     define protected init() {
         self.value = 0
