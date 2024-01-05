@@ -35,15 +35,25 @@ Any x = some_function.get() // auto type assign  for x
 ### Dictionary (HashMap)
 
 ```js
+Dict<type1, type2> <variable> = {}
+
 data -> Dict<int, String> = {}
 Dict data = {} // auto type assign for data
 ```
 
+### Lists
+
+```js
+List my_list = [] // auto type assign for my_list
+List<String> = []
+```
+
 ### Constants (Not changeable)
 
-```java
+```js
+const <type> <constant> = <a constant value>
+
 const String hello = "hello"
-const hello -> String = "hello"
 ```
 
 ## If statements
