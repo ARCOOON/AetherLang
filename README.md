@@ -1,2 +1,2 @@
 # AetherLang
-Aether Lang is an programming language,
+Aether Lang is an programming language.
