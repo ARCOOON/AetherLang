@@ -104,7 +104,7 @@ define <return_type> foo( <<arguments>> ) {
 > without return
 
 ```js
-define <void> greet( String name ) {
+define void greet( String name ) {
     <statement>
 }
 ```
