@@ -29,7 +29,7 @@ Int y = 1
 ### Any (Objects)
 
 ```js
-Any x = some_function.get() // auto assign type for x
+Any x = some_function.get() // auto type assign  for x
 ```
 
 ### Dictionary (HashMap)
