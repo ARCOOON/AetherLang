@@ -1,0 +1,19 @@
+{
+  "name": "aether-lang",
+  "version": "1.0.0",
+  "description": "Aether Lang is an programming language.",
+  "main": "main.js",
+  "scripts": {
+    "test": "exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ARCOOON/AetherLang.git"
+  },
+  "author": "Leon, David",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ARCOOON/AetherLang/issues"
+  },
+  "homepage": "https://github.com/ARCOOON/AetherLang#readme"
+}
