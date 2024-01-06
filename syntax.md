@@ -98,12 +98,13 @@ if ( <<condition>> ) {
 
 ## Imports
 
-```js
-import <package>
+```py
+import package
+import package as ...
 
-from <package> import <module>
-
-from <package> import *
+from package import ...
+from package import ... as ...
+from package import *
 ```
 
 ## For and While statements
