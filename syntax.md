@@ -197,7 +197,7 @@ class some_class {
 
 ```js
 @private {
-    const String hello = "hello"
+    String hello = "hello"
     String world = "world"
     Number x = 1
     ...
