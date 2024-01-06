@@ -22,7 +22,6 @@ String hello = "hello"
 ### Numbers
 
 ```js
-Number x = 1974893
 Int y = 1
 ```
 
@@ -191,7 +190,7 @@ class some_class {
 @private {
     String hello = "hello"
     String world = "world"
-    Number x = 1
+    Int x = 1
     ...
 }
 ```
