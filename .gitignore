@@ -131,3 +131,7 @@ dist
 
 # Test files
 test.ael
+
+# Windows Batch files
+*.bat
+*.cmd
