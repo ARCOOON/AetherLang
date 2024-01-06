@@ -70,7 +70,7 @@ const String hello = "hello"
 
 ```js
 if ( <<condition>> ) {
-    <statement>
+    ...
 }
 ```
 
@@ -78,9 +78,9 @@ if ( <<condition>> ) {
 
 ```js
 if ( <<condition>> ) {
-    <statement>
+    ...
 } else {
-    <statement>
+    ...
 }
 ```
 
@@ -88,11 +88,11 @@ if ( <<condition>> ) {
 
 ````js
 if ( <<condition>> ) {
-    <statement>
+    ...
 } else-if (<<condition>>) {
-    <statement>
+    ...
 } else {
-    <statement>
+    ...
 }
 ````
 
@@ -102,7 +102,7 @@ if ( <<condition>> ) {
 
 ```js
 for ( <item> in <<iterator>> ) {
-    <statement>
+    ...
 }
 ```
 
@@ -110,7 +110,7 @@ for ( <item> in <<iterator>> ) {
 
 ```js
 while ( <<condition>> ) {
-    <statement>
+    ...
 }
 ```
 
@@ -122,7 +122,7 @@ while ( <<condition>> ) {
 
 ```js
 define <return_type> foo( <<arguments>> ) {
-    <code>
+    ...
 }
 ```
 
@@ -130,7 +130,7 @@ define <return_type> foo( <<arguments>> ) {
 
 ```js
 define void greet( String name ) {
-    <code>
+    ...
 }
 ```
 
@@ -184,7 +184,7 @@ define void some_function() { ... }
 
 > Private variables
 
-```java
+```js
 @private {
     const String hello = "hello"
     String world = "world"
