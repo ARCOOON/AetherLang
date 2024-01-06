@@ -25,6 +25,12 @@ String hello = "hello"
 Int y = 1
 ```
 
+### Bit
+
+```java
+Bit x = 0 | 1
+```
+
 ### Booleans
 
 ```js
