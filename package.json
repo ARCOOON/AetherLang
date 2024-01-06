@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ARCOOON/AetherLang/issues"
   },
-  "homepage": "https://github.com/ARCOOON/AetherLang#readme"
+  "homepage": "https://github.com/ARCOOON/AetherLang#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
 }
