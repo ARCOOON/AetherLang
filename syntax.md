@@ -180,6 +180,17 @@ class some_class {
 define void some_function() { ... }
 ```
 
+```js
+@private
+class some_class {
+    @protected
+    define void init() { ... }
+
+    @private
+    define void some_private_function() { ... }
+}
+```
+
 ### Variables
 
 > Private variables
