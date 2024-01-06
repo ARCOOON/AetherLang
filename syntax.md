@@ -170,3 +170,25 @@ class some_class {
     }
 }
 ```
+
+## Keywords
+
+### Functions, Classes
+
+```js
+@private
+define void some_function() { ... }
+```
+
+### Variables
+
+> Private variables
+
+```java
+@private {
+    const String hello = "hello"
+    String world = "world"
+    Number x = 1
+    ...
+}
+```
