@@ -96,6 +96,17 @@ if ( <<condition>> ) {
 }
 ````
 
+## Imports
+
+```py
+import package
+import package as ...
+
+from package import ...
+from package import ... as ...
+from package import *
+```
+
 ## For and While statements
 
 ### For statement
@@ -152,25 +163,6 @@ class some_class extends some_other_class {}
 class some_class implements some_other_class {}
 ```
 
-```js
-class some_class {
-    @protected
-    define void init() {
-        String user = null
-    }
-
-    @private
-    define String get_password() {
-        return this.user.password
-    }
-
-    @property
-    define String email() {
-        return this.user.email
-    }
-}
-```
-
 ## Keywords
 
 ### Functions, Classes
@@ -197,7 +189,7 @@ class some_class {
 
 ```js
 @private {
-    const String hello = "hello"
+    String hello = "hello"
     String world = "world"
     Number x = 1
     ...
