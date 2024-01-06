@@ -96,6 +96,16 @@ if ( <<condition>> ) {
 }
 ````
 
+## Imports
+
+```js
+import <package>
+
+from <package> import <module>
+
+from <package> import *
+```
+
 ## For and While statements
 
 ### For statement
@@ -150,25 +160,6 @@ class some_class {}
 class some_class extends some_other_class {}
 
 class some_class implements some_other_class {}
-```
-
-```js
-class some_class {
-    @protected
-    define void init() {
-        String user = null
-    }
-
-    @private
-    define String get_password() {
-        return this.user.password
-    }
-
-    @property
-    define String email() {
-        return this.user.email
-    }
-}
 ```
 
 ## Keywords
